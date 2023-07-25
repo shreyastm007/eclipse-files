@@ -1,0 +1,7 @@
+<Shoes>
+	<shoe Name="Puma">
+	<Price value="4000"/>
+	<Size value="s"/>
+	<Color value="black"/>
+	</shoe>
+</Shoes>

@@ -1,0 +1,40 @@
+//Bitwise Operators = |,&,^,~
+package com.thoughtfocus;
+
+public class Bitwise {
+
+	public void bitwiseOr() {
+
+		int number1 = 12, number2 = 25, result;
+
+		// bitwise OR between 12 and 25
+		result = number1 | number2;
+		System.out.println("OR result is:" + result); // prints 29
+	}
+
+	public void bitwiseAnd() {
+
+		int number1 = 12, number2 = 25, result;
+
+		// bitwise AND between 12 and 25
+		result = number1 & number2;
+		System.out.println("AND result is:" + result); // prints 8
+	}
+
+	public void bitwiseXor() {
+
+		int number1 = 12, number2 = 25, result;
+
+		// bitwise XOR between 12 and 25
+		result = number1 ^ number2;
+		System.out.println("XOR result is:" + result); // prints 21
+	}
+
+	public void bitwiseComplement() { // two's complement
+
+		int number = 5, result;
+
+		result = ~number;
+		System.out.println("2's complement result is:" + result); // prints -6
+	}
+}

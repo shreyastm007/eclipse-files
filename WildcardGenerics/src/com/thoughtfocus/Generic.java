@@ -1,0 +1,24 @@
+package com.thoughtfocus;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Generic {
+
+		// creating a method that accepts only child class of Shape
+		public static void drawShapes(List<? extends Shape> lists) {
+			for (Shape s : lists) {
+				s.draw();// calling method of Shape class by child class instance
+			}
+		}
+
+		public static void main(String args[]) {
+			List<Rectangle> list1 = new ArrayList<Rectangle>();
+			List<Circle> list2 = new ArrayList<Circle>();
+			list1.add(new Rectangle());
+			list2.add(new Circle());
+			drawShapes(list1);
+			drawShapes(list2);
+		}
+	}
+

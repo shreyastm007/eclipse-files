@@ -1,0 +1,17 @@
+<BookStore>
+    <book name="It Starts With Us">
+        <price value="500" />
+        <language value="English"/>
+        <author value="Collen Hoover"/>
+    </book>
+    <book name="The Fault In Our Stars">
+        <price value="380" />
+        <language value="English"/>
+        <author value="John Green"/>
+    </book>
+    <book name="Outliers:The Story of Success">
+        <price value="800" />
+        <language value="English"/>
+        <author value=""/>
+    </book>
+</BookStore>

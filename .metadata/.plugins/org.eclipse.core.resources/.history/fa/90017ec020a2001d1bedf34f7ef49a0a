@@ -1,0 +1,8 @@
+package com.thoughtfocus;
+
+public class MainClass {
+	public static void main(String[] args) {
+	HashMapExample hashing= new HashMapExample();
+	hashing.operation1();
+}
+}
